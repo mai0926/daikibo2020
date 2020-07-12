@@ -32,7 +32,7 @@ public class TimetableServlet extends HttpServlet {
 
 		    }
 
-		    Timetable.putSubject(day, period_int, subject_name);
+		    Timetable.putSubject(day -1, period_int, subject_name);
 
  		    String Subject[][] = new String[6][6];
 		    int i,j;
