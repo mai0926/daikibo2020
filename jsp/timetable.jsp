@@ -36,7 +36,7 @@
         <%
         request.setCharacterEncoding("utf-8");
         String subject[][] = new String[6][6];
-        subject = (String[][])request.GetAttribute("subject");
+        subject = (String[][])request.getAttribute("subject");
         %>
 
         <h1>時間割</h1>
