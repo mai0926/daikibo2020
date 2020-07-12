@@ -1,10 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 
-<html>    
+<html>
 
 <head>
-    <meta charset="UTF-8"> <!--文字コード指定-->
-        
+    <meta charset="UTF-8"><!--文字コード指定-->
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="display.css">
 
@@ -17,7 +17,7 @@
 
         <p>306203 山口真衣</p>
         <header>
-            
+
         <!--ナビゲーションバー-->
             <nav class="global-nav">
                 <ul class="nav-list">
@@ -131,7 +131,6 @@
                 %>
             </tr>
         </table>
-
     </div>
 
 </body>
