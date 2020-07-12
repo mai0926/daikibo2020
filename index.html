@@ -1,145 +1,155 @@
-<!DOCTYPE html> <!--文書型宣言-->
-  <head>
-    <meta charset="UTF-8"> <!--文字コード指定-->
+<!DOCTYPE html>
+<!--文書型宣言-->
 
-    <link rel="stylesheet" href="style.css">
-<!--    <link rel="stylesheet" href="calendar.css">-->
+<head>
+	<meta charset="UTF-8">
+	<!--文字コード指定-->
 
-    <title>index</title> <!--文書のタイトルを設定-->
-  </head>
+	<link rel="stylesheet" href="style.css">
+	<!--    <link rel="stylesheet" href="calendar.css">-->
 
-<body bgcolor="#ffffdd"> <!--ここから本文-->
-  
-  <div style="text-align: center;">
-    
-    <p>306203 山口真衣<br>トップページ</p>
-  
-    <header>
-      
-    <!--ナビゲーションバー-->
-    <nav class="global-nav">
-      <ul class="nav-list">
-	<li class="nav-item"><a href="index.html" class="navlink">ホーム</a></li>
-	<li class="nav-item"><a href="timetable_register.html">時間割登録</a></li>
-	<li class="nav-item"><a href="semester_register.html">学期登録</a></li>
-	<li class="nav-item"><a href="homework_register.html">宿題登録</a></li>
-	<li class="nav-item"><a href="exam.html">試験登録</a></li>
-	<li class="nav-item"><a href="reschedule.html">振替授業登録</a></li>
-	<li class="nav-item"><a href="logout.html" class="navlink">ログアウト</a></li>
-      </ul>
-    </nav>
-    
-  </header>
-    <hr>            
-      <div class="f-container"> <!--全体のdiv-->
-	<div class="f-item">
-	  <h2>6月</h2>
-	  <p>前月　　　　　　　　　翌月</p>	      
-	      <table width="350" height="300" bgcolor="ffffff" border="1" style="border-collapse: collapse" align="center">
-		<thead>
-		  <tr>
-		    <th><font color="fa8072">日</font></th>
-		    <th>月</th>
-	            <th>火</th>
-		    <th>水</th>
-		    <th>木</th>
-		    <th>金</th>
-		    <th><font color="6495ed">土</th>
-		  </tr>      
-	    </thead>
-		<tbody>
-		  <tr>
-		    <td></td>
-		    <td>1</td>
-	            <td>2</td>
-		    <td>3</td>
-		    <td>4</td>
-		    <td>5</td>
-		    <td>6</td>
-		  </tr>
-		  <tr>
-		    <td>7</td>
-		    <td>8</td>
-	            <td>9</td>
-		    <td>10</td>
-		    <td>11</td>
-		    <td>12</td>
-		    <td>13</td>
-		  </tr>
-		  <tr>
-		    <td>14</td>
-		    <td>15</td>
-	            <td>16</td>
-		    <td>17</td>
-		    <td>18</td>
-		    <td>19</td>
-		    <td>20</td>
-		  </tr>
-		  <tr>
-		    <td>21</td>
-		    <td>22</td>
-	            <td>23</td>
-		    <td>24</td>
-		    <td>25</td>
-		    <td>26</td>
-		    <td>27</td>
-		  </tr>
-		  <tr>
-		    <td>28</td>
-		    <td>29</td>
-		    <td>30</td>
-		    <td></td>
-		    <td></td>
-		    <td></td>
-		    <td></td>
-		  </tr>
-		</tbody>
-	      </table>
-	      <br>
-	      <button class="buttons" type="button" onclick="location.href='./timetable.html'">時間割</button>
-	      <button class="buttons" type="button" onclick="location.href='./week.html'">週</button>
-	      <button class="buttons"  type="button" onclick="location.href='./semester.html'">学期</button>
-	</div>	      
-	<div class="f-item">
-	  <h2>宿題一覧</h2>
-	  <table bgcolor="ffffff" border="1" align="center">
-	    <thead>
-	      <tr>
-		<th>締切日</th>
-		<th>宿題</th>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <tr>
-		<td>6/16</td>
-		<td>○○○○○○○○○○</td>
-	      </tr>
-	      <tr>
-		<td>6/30</td>
-		<td>　　　　　　　　　　</td>
-	      </tr>
-	      <tr>
-		<td>7/2</td>
-		<td>　　　　　　　　　　</td>
-	      </tr>
-	      <tr>
-		<td>7/2</td>
-		<td>　　　　　　　　　　</td>
-	      </tr>
-	      <tr>
-		<td>7/3</td>
-		<td>　　　　　　　　　　</td>
-	      </tr>
-	      <tr>
-		<td>7/5</td>
-		<td>　　　　　　　　　　</td>
-	      </tr>
-	    </tbody>
-	  </table>
-	  
+	<title>index</title>
+	<!--文書のタイトルを設定-->
+</head>
+
+<body bgcolor="#ffffdd">
+	<!--ここから本文-->
+
+	<div style="text-align: center;">
+
+		<p>306203 山口真衣<br>トップページ</p>
+
+		<header>
+			<!--ナビゲーションバー-->
+			<nav class="global-nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="index.html" class="navlink">ホーム</a></li>
+					<li class="nav-item"><a href="timetable_register.html">時間割登録</a></li>
+					<li class="nav-item"><a href="semester_register.html">学期登録</a></li>
+					<li class="nav-item"><a href="homework_register.html">宿題登録</a></li>
+					<li class="nav-item"><a href="exam.html">試験登録</a></li>
+					<li class="nav-item"><a href="reschedule.html">振替授業登録</a></li>
+					<li class="nav-item"><a href="logout.html" class="navlink">ログアウト</a></li>
+				</ul>
+			</nav>
+
+		</header>
+		<hr>
+		<div class="f-container">
+			<!--全体のdiv-->
+			<div class="f-item">
+				<h2>6月</h2>
+				<p>前月　　　　　　　　　翌月</p>
+				<table width="350" height="300" bgcolor="ffffff" border="1" style="border-collapse: collapse"
+					align="center">
+					<thead>
+						<tr>
+							<th>
+								<font color="fa8072">日</font>
+							</th>
+							<th>月</th>
+							<th>火</th>
+							<th>水</th>
+							<th>木</th>
+							<th>金</th>
+							<th>
+								<font color="6495ed">土
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+						</tr>
+						<tr>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+						</tr>
+						<tr>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<button class="buttons" type="button" onclick="location.href='./timetable.html'">時間割</button>
+				<button class="buttons" type="button" onclick="location.href='./week.html'">週</button>
+				<button class="buttons" type="button" onclick="location.href='./semester.html'">学期</button>
+			</div>
+			<div class="f-item">
+				<h2>宿題一覧</h2>
+				<table bgcolor="ffffff" border="1" align="center">
+					<thead>
+						<tr>
+							<th>締切日</th>
+							<th>宿題</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>6/16</td>
+							<td>○○○○○○○○○○</td>
+						</tr>
+						<tr>
+							<td>6/30</td>
+							<td>　　　　　　　　　　</td>
+						</tr>
+						<tr>
+							<td>7/2</td>
+							<td>　　　　　　　　　　</td>
+						</tr>
+						<tr>
+							<td>7/2</td>
+							<td>　　　　　　　　　　</td>
+						</tr>
+						<tr>
+							<td>7/3</td>
+							<td>　　　　　　　　　　</td>
+						</tr>
+						<tr>
+							<td>7/5</td>
+							<td>　　　　　　　　　　</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<p><a href="login.html">ログイン画面</p>
 	</div>
-      </div>
-    <p><a href="login.html">ログイン画面</p>
-    
 </body>
+
 </html>

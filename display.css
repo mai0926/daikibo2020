@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.container{
- display: inline-block;
- justify-content: space-between;
+.container {
+    display: inline-block;
+    justify-content: space-between;
 }
