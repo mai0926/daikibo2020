@@ -30,9 +30,12 @@ public class TimetableServlet extends HttpServlet {
 				period_int = Integer.parseInt(period);
 		    }catch (NumberFormatException e){
 
-		    }
+			}
 
-		    Timetable.putSubject(day -1, period_int, subject_name);
+			day--;
+			period_int--;
+
+		    Timetable.putSubject(day, period_int, subject_name);
 
  		    String Subject[][] = new String[6][6];
 		    int i,j;
