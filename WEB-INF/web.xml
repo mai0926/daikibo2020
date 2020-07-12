@@ -1,0 +1,14 @@
+<!--306203 山口真衣-->
+
+<web-app> 
+
+  <servlet> 
+     <servlet-name>TimetableServlet</servlet-name> 
+     <servlet-class>TimetableServlet</servlet-class> 
+  </servlet> 
+   <servlet-mapping> 
+     <servlet-name>TimetableServlet</servlet-name>
+     <url-pattern>/timetable</url-pattern> 
+   </servlet-mapping>
+   
+</web-app> 

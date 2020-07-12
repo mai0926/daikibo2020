@@ -1,0 +1,305 @@
+<!DOCTYPE html> <!--文書型宣言-->
+  <head>
+    <meta charset="UTF-8"> <!--文字コード指定-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>index</title> <!--文書のタイトルを設定-->
+  </head>
+  <body bgcolor="#ffffdd"> <!--ここから本文-->
+
+    <div style="text-align: center;">
+
+      <p>306203 山口真衣</p>
+
+   <header>
+      
+    <!--ナビゲーションバー-->
+    <nav class="global-nav">
+      <ul class="nav-list">
+	<li class="nav-item"><a href="index.html" class="navlink">ホーム</a></li>
+	<li class="nav-item"><a href="calendar.html">カレンダー表示</a></li>
+	<li class="nav-item"><a href="timetable.html">時間割登録</a></li>
+	<li class="nav-item"><a href="semester_register.html">学期登録</a></li>
+	<li class="nav-item"><a href="homework_register.html">宿題登録</a></li>
+	<li class="nav-item"><a href="exam.html">試験登録</a></li>
+	<li class="nav-item"><a href="reschedule.html">振替授業登録</a></li>
+	<li class="nav-item"><a href="index.html" class="navlink">ログアウト</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+    <hr>    
+
+      <h1>学期単位のカレンダー</h1>
+
+      5月
+      <table bgcolor="ffffff" border="1" style="border-collapse: collapse" align="center">
+	<thead>
+	  <tr>
+	    <th><font color="fa8072">日</font></th>
+	    <th>月</th>
+            <th>火</th>
+	    <th>水</th>
+	    <th>木</th>
+	    <th>金</th>
+	    <th><font color="6495ed">土</th>	    
+	  </tr>      
+      </thead>
+	<tbody>
+	  <tr>
+	    <td></td><!--日-->
+	    <td></td><!--月-->
+	    <td></td><!--火-->
+	    <td></td><!--水-->
+	    <td></td><!--木-->
+	    <td>1</td><!--金-->
+	    <td>2</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>3</td><!--日-->
+	    <td>4</td><!--月-->
+	    <td>5</td><!--火-->
+	    <td>6</td><!--水-->
+	    <td>7</td><!--木-->
+	    <td>8</td><!--金-->
+	    <td>9</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>10</td><!--日-->
+	    <td>11</td><!--月-->
+	    <td>12</td><!--火-->
+	    <td>13</td><!--水-->
+	    <td>14</td><!--木-->
+	    <td>15</td><!--金-->
+	    <td>16</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>17</td><!--日-->
+	    <td>18</td><!--月-->
+	    <td>19</td><!--火-->
+	    <td>20</td><!--水-->
+	    <td>21</td><!--木-->
+	    <td>22</td><!--金-->
+	    <td>23</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>24</td><!--日-->
+	    <td>25</td><!--月-->
+	    <td>26</td><!--火-->
+	    <td>27</td><!--水-->
+	    <td>28</td><!--木-->
+	    <td>29</td><!--金-->
+	    <td>30</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>31</td><!--日-->
+	    <td></td><!--月-->
+	    <td></td><!--火-->
+	    <td></td><!--水-->
+	    <td></td><!--木-->
+	    <td></td><!--金-->
+	    <td></td><!--土-->
+	  </tr>
+	</tbody>
+      </table>
+      6月
+      <table bgcolor="ffffff" border="1" style="border-collapse: collapse" align="center">
+	<thead>
+	  <tr>
+	    <th><font color="fa8072">日</font></th>
+	    <th>月</th>
+            <th>火</th>
+	    <th>水</th>
+	    <th>木</th>
+	    <th>金</th>
+	    <th><font color="6495ed">土</th>	    
+	  </tr>      
+      </thead>
+	<tbody>
+	  <tr>
+	    <td></td>
+	      <td>1</td>
+	    <td>2</td>
+	    <td>3</td>
+	    <td>4</td>
+	    <td>5</td>
+	    <td>6</td>
+	  </tr>
+	  <tr>
+	    <td>7</td>
+	    <td>8</td>
+	    <td>9</td>
+	    <td>10</td>
+	    <td>11</td>
+	    <td>12</td>
+	    <td>13</td>
+	  </tr>
+	  <tr>
+	    <td>14</td>
+	    <td>15</td>
+	    <td>16</td>
+	    <td>17</td>
+	    <td>18</td>
+	    <td>19</td>
+	    <td>20</td>
+	  </tr>
+	  <tr>
+	    <td>21</td>
+	    <td>22</td>
+	    <td>23</td>
+	    <td>24</td>
+	    <td>25</td>
+	    <td>26</td>
+	    <td>27</td>
+	  </tr>
+	  <tr>
+	    <td>28</td>
+	    <td>29</td>
+	    <td>30</td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	</tbody>
+      </table>
+      7月
+      <table bgcolor="ffffff" border="1" style="border-collapse: collapse" align="center">
+	<thead>
+	  <tr>
+	    <th><font color="fa8072">日</font></th>
+	    <th>月</th>
+            <th>火</th>
+	    <th>水</th>
+	    <th>木</th>
+	    <th>金</th>
+	    <th><font color="6495ed">土</th>	    
+	  </tr>      
+	</thead>
+	<tbody>
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td>1</td>
+	    <td>2</td>
+	    <td>3</td>
+	    <td>4</td>
+	    <td>5</td>
+	  </tr>
+	  <tr>
+	    <td>6</td>
+	    <td>7</td>
+	    <td>8</td>
+	    <td>9</td>
+	    <td>10</td>
+	    <td>11</td>
+	    <td>12</td>
+	  </tr>
+	  <tr>
+	    <td>13</td>
+	    <td>14</td>
+	    <td>15</td>
+	    <td>16</td>
+	    <td>17</td>
+	    <td>18</td>
+	    <td>19</td>
+	  </tr>
+	  <tr>
+	    <td>20</td>
+	    <td>21</td>
+	    <td>22</td>
+	    <td>23</td>
+	    <td>24</td>
+	    <td>25</td>
+	    <td>26</td>
+	  </tr>
+	  <tr>
+	    <td>27</td>
+	    <td>28</td>
+	    <td>29</td>
+	    <td>30</td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	</tbody>
+      </table>
+      8月
+      <table bgcolor="ffffff" border="1" style="border-collapse: collapse" align="center">
+	<thead>
+	  <tr>
+	    <th><font color="fa8072">日</font></th>
+	    <th>月</th>
+            <th>火</th>
+	    <th>水</th>
+	    <th>木</th>
+	    <th>金</th>
+	    <th><font color="6495ed">土</th>	    
+	  </tr>      
+      </thead>
+	<tbody>
+	  <tr>
+	    <td></td><!--日-->
+	    <td></td><!--月-->
+	    <td></td><!--火-->
+	    <td></td><!--水-->
+	    <td></td><!--木-->
+	    <td></td><!--金-->
+	    <td>1</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>2</td><!--日-->
+	    <td>3</td><!--月-->
+	    <td>4</td><!--火-->
+	    <td>5</td><!--水-->
+	    <td>6</td><!--木-->
+	    <td>7</td><!--金-->
+	    <td>8</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>9</td><!--日-->
+	    <td>10</td><!--月-->
+	    <td>11</td><!--火-->
+	    <td>12</td><!--水-->
+	    <td>13</td><!--木-->
+	    <td>14</td><!--金-->
+	    <td>15</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>16</td><!--日-->
+	    <td>17</td><!--月-->
+	    <td>18</td><!--火-->
+	    <td>19</td><!--水-->
+	    <td>20</td><!--木-->
+	    <td>21</td><!--金-->
+	    <td>22</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>23</td><!--日-->
+	    <td>24</td><!--月-->
+	    <td>25</td><!--火-->
+	    <td>26</td><!--水-->
+	    <td>27</td><!--木-->
+	    <td>28</td><!--金-->
+	    <td>29</td><!--土-->
+	  </tr>
+	  <tr>
+	    <td>30</td><!--日-->
+	    <td>31</td><!--月-->
+	    <td></td><!--火-->
+	    <td></td><!--水-->
+	    <td></td><!--木-->
+	    <td></td><!--金-->
+	    <td></td><!--土-->
+	  </tr>
+	</tbody>
+      </table>      
+    </div>
+
+    <p><a href="index.html">トップ画面へ</a></p>
+
+    <p><a href="transition_miss.html">画面遷移ミス</p>
+
+  </body>
+</html>

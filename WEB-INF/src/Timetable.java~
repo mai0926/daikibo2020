@@ -1,0 +1,21 @@
+public class Timetable{
+    private String subject[][] = new String[6][6];
+
+    public Timetable(){
+	int i,j;
+	for( i = 0; i < 2; i++ ){
+	    for( j = 0; j < 2; j++ ){
+		subject[i][j] = " ";
+	    }
+	}
+    }
+
+    public void putSubject( String day, int period, String subject ){
+	subject[day][period-1] = subject;
+    }
+
+    public String getSubject( String day, int period ){
+	return subject[day][period];
+    }
+
+}

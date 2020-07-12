@@ -1,0 +1,166 @@
+Script started on Wed Jun 24 01:20:08 2020
+u306203@cse-gw[31]: cat calendar.html
+<!DOCTYPE html> <!--文書型宣言-->
+<head>
+  <meta charset="UTF-8"> <!--文字コード指定-->
+  
+  <title>カレンダー</title> <!--文書のタイトルを設定-->
+</head>
+<body> <!--ここから本文-->
+  
+  <p>306203 山口真衣</p>    
+  
+  <h1>2020年6月</h1>
+      
+      <table border="1" style="border-collapse: collapse">
+	<thead>
+	  <tr>
+	    <th><font color="red">日</font></th>
+	    <th>月</th>
+	    <th>火</th>
+	    <th>水</th>
+	    <th>木</th>
+	    <th>金</th>
+	    <th>土</th>
+	  </tr>      
+	</thead>
+	<tbody>
+	  <tr>
+	    <td></td>
+	    <td>1</td>
+	    <td>2</td>
+	    <td>3</td>
+	    <td>4</td>
+	    <td>5</td>
+	    <td>6</td>
+	  </tr>
+	  <tr>
+	    <td><font color="red">7</font></td>
+	    <td>8</td>
+	    <td>9</td>
+	    <td>10</td>
+	    <td>11</td>
+	    <td>12</td>
+	    <td>13</td>
+	  </tr>
+	  <tr>
+	    <td><font color="red">14</font></td>
+	    <td>15</td>
+	    <td>16</td>
+	    <td>17</td>
+	    <td>18</td>
+	    <td>19</td>
+	    <td>20</td>
+	  </tr>
+	  <tr>
+	    <td><font color="red">21</font></td>
+	    <td>22</td>
+	    <td>23</td>
+	    <td>24</td>
+	    <td>25</td>
+	    <td>26</td>
+	    <td>27</td>
+	  </tr>
+	  <tr>
+	    <td><font color="red">28</font></td>
+	    <td>29</td>
+	    <td>30</td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    </tr>
+	</tbody>
+	</table>
+
+</body>
+</html>
+u306203@cse-gw[32]: cat index.html
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>index</title>
+  </head>
+  <body>
+   <p>カレンダーを表示する年月を入力してください</p>
+      <form action="./calendar.jsp" method="GET">
+	年:<input type="text" name="year"/>
+	月:<input type="text" name="month"/><br/>
+	<input type="submit" value="OK"/>
+      </form>
+  </body>
+</html>
+u306203@cse-gw[33]: cat calendar.jsp
+<%@ page contentType="text/html; charset=UTF-8"%>
+<%@ page import="java.time.LocalDate"%>
+<%
+String stringYear = request.getParameter("year");
+String stringMonth = request.getParameter("month");
+int year = 0;
+int month = 0;
+try{
+ year = Integer.parseInt(stringYear); // String型をint型に変換
+ month = Integer.parseInt(stringMonth); // String型をint型に変換
+}catch (NumberFormatException e) { // 数値の書式に誤りあり
+ out.println("年月の指定に誤りがあります");
+ return;
+}
+if( month < 1 || month > 12 ){
+out.println("年月の指定に誤りがあります");
+return;
+}
+// 年月の取得
+LocalDate date = LocalDate.of(year, month, 1); // 指定された年月の1日を表すオブジェクトを作成する	
+int len = date.lengthOfMonth();  // 日数を求める
+int youbi = date.getDayOfWeek().getValue(); // 指定された年月の1日の曜日を求める 月曜日が1で，日曜日が7
+int i;
+%>
+<html>
+<body>
+<h1><%=year%>年<%=month%>月</h1>
+<table>
+<thead>
+<tr>
+<th><font color="red">日</font></th>
+<th>月</th>
+<th>火</th>
+<th>水</th>
+<th>木</th>
+<th>金</th>
+<th>土</th>
+</tr>
+</thead>
+<tbody align="right">
+<tr>
+<%
+for( i = youbi; i > 0; i-- ){ // 空白の挿入
+if( i == 7 ){
+ continue;
+}
+%>
+<td></td>
+<%
+}
+for( i = 1; i <= len; i++ ){
+if( (youbi+i)%7 == 1 ){ // 日曜日は赤に
+%>
+<th><font color="red"><%=i%></font></th>
+<%
+}else{
+out.println("<td>"+i+"</td>");
+}
+if( (youbi+i)%7 == 0 ){ // 改行
+%>
+</tr>
+<tr>
+<%
+}
+}
+%>
+</table>
+</br><button type="button" onclick="location.href='./index.html'">戻る</button>
+</body>
+</html>u306203@cse-gw[34]: exit
+exit
+
+Script done on Wed Jun 24 01:20:58 2020

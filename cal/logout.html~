@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+ <head>
+   <meta charset="UTF-8">
+     <title>学生カレンダー ログアウト画面</title>
+ </head>
+ <body bgcolor="#ffffdd"> <!--ここから本文-->
+
+   <div align="center">
+     <p>306203 山口 真衣</p>
+     <hr>
+     <p>ご利用ありがとうございました。<br>再度ログインされる場合はこちら<a href="login.html">トップ画面へ</p>
+   </div>
+   
+ </body>
+</html>

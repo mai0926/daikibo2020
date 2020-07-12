@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+ <head>
+   <meta charset="UTF-8">
+
+   <link rel="stylesheet" href="style.css">
+
+     <title>学期登録</title>
+ </head>
+ <body bgcolor="#ffffdd">
+
+   <p>306203 山口 真衣</p>
+
+   <header>
+     
+     <!--ナビゲーションバー-->
+     <nav class="global-nav">
+       <ul class="nav-list">
+	 <li class="nav-item"><a href="index.html" class="navlink">ホーム</a></li>
+	 <li class="nav-item"><a href="timetable_register.html">時間割登録</a></li>
+	 <li class="nav-item"><a href="semester_register.html">学期登録</a></li>
+	 <li class="nav-item"><a href="homework_register.html">宿題登録</a></li>
+	 <li class="nav-item"><a href="exam.html">試験登録</a></li>
+	 <li class="nav-item"><a href="reschedule.html">振替授業登録</a></li>
+	 <li class="nav-item"><a href="index.html" class="navlink">ログアウト</a></li>
+       </ul>
+     </nav>
+     
+   </header>
+   <hr>    
+   
+   <div align="center">
+
+     <h1>学期登録</h1>
+
+     start：
+     <select name="start_month">
+       <option value="jan">1</option>
+       <option value="feb">2</option>
+       <option value="mar">3</option>
+       <option value="apr">4</option>
+       <option value="may">5</option>
+       <option value="jun">6</option>
+       <option value="jul">7</option>
+       <option value="aug">8</option>
+       <option value="sep">9</option>
+       <option value="oct">10</option>
+       <option value="nov">11</option>
+       <option value="dec">12</option>
+     </select>
+     月
+     <select name="start_day">
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       <option value="11">11</option>
+       <option value="12">12</option>
+       <option value="13">13</option>
+       <option value="14">14</option>
+       <option value="15">15</option>
+       <option value="16">16</option>
+       <option value="17">17</option>
+       <option value="18">18</option>
+       <option value="19">19</option>
+       <option value="20">20</option>
+       <option value="21">21</option>
+       <option value="22">22</option>
+       <option value="23">23</option>
+       <option value="24">24</option>
+       <option value="25">25</option>
+       <option value="26">26</option>
+       <option value="27">27</option>
+       <option value="28">28</option>
+       <option value="29">29</option>
+       <option value="30">30</option>
+       <option value="31">31</option>
+     </select>
+     日
+     <br>
+     end：
+     <select name="end_month">
+       <option value="jan">1</option>
+       <option value="feb">2</option>
+       <option value="mar">3</option>
+       <option value="apr">4</option>
+       <option value="may">5</option>
+       <option value="jun">6</option>
+       <option value="jul">7</option>
+       <option value="aug">8</option>
+       <option value="sep">9</option>
+       <option value="oct">10</option>
+       <option value="nov">11</option>
+       <option value="dec">12</option>
+     </select>
+     月
+     <select name="end_day">
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       <option value="11">11</option>
+       <option value="12">12</option>
+       <option value="13">13</option>
+       <option value="14">14</option>
+       <option value="15">15</option>
+       <option value="16">16</option>
+       <option value="17">17</option>
+       <option value="18">18</option>
+       <option value="19">19</option>
+       <option value="20">20</option>
+       <option value="21">21</option>
+       <option value="22">22</option>
+       <option value="23">23</option>
+       <option value="24">24</option>
+       <option value="25">25</option>
+       <option value="26">26</option>
+       <option value="27">27</option>
+       <option value="28">28</option>
+       <option value="29">29</option>
+       <option value="30">30</option>
+       <option value="31">31</option>
+     </select>
+     日
+
+   </div>
+
+   <p><a href="transition_miss.html">画面遷移ミス</p>
+
+ </body>
+</html>

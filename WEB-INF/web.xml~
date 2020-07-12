@@ -1,0 +1,41 @@
+<!--306203 山口真衣-->
+
+<web-app> 
+
+  <servlet> 
+     <servlet-name>BankServlet</servlet-name> 
+     <servlet-class>BankServlet</servlet-class> 
+  </servlet> 
+   <servlet-mapping> 
+     <servlet-name>BankServlet</servlet-name>
+     <url-pattern>/bank</url-pattern> 
+   </servlet-mapping>
+
+  <servlet> 
+     <servlet-name>SampleServlet</servlet-name> 
+     <servlet-class>SampleServlet</servlet-class> 
+  </servlet> 
+   <servlet-mapping> 
+     <servlet-name>SampleServlet</servlet-name>
+     <url-pattern>/sampleservlet</url-pattern> 
+   </servlet-mapping>
+
+  <servlet> 
+     <servlet-name>HelloServlet</servlet-name> 
+     <servlet-class>HelloServlet</servlet-class> 
+  </servlet> 
+   <servlet-mapping> 
+     <servlet-name>HelloServlet</servlet-name>
+     <url-pattern>/greeting</url-pattern> 
+   </servlet-mapping>
+
+  <servlet> 
+     <servlet-name>Sample2</servlet-name> 
+     <servlet-class>Sample2</servlet-class> 
+  </servlet> 
+   <servlet-mapping> 
+     <servlet-name>Sample2</servlet-name>
+     <url-pattern>/carshop</url-pattern> 
+   </servlet-mapping>
+   
+</web-app> 

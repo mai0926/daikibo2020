@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*グローバルメニューバー*/
+nav ul{
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%
+text-align: center;
+}
+.nav-item{
+display: inline-block;
+padding: 13px 15px;
+}
+ul li{
+display: table-cell;
+min-width: 50px;
+}
+ul li a{
+display: block;
+width: 100%
+text-decoration: none;
+color: #555;
+font-weight: bold;
+}
+ul li:hover{
+background-color: #e0ffff
+}
+
+/*2段組*/
+.f-container{
+ display: flex;
+ justify-content: space-between;
+}
+
+.f-item{
+ flex-direction: row;
+ flex-basis: 50%;
+}
+
+
+/*ボタン装飾*/
+.buttons{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+ <head>
+   <meta charset="UTF-8">
+     <title>学生カレンダー アカウント作成</title>
+ </head>
+ <body bgcolor="#eee8aa"> <!--ここから本文-->
+
+   <p>306203 山口 真衣</p>
+   <hr>
+
+   <div align="center">
+     name：<input type="text" name="customer_name">
+     <br>
+     password：<input type="text" name="password">
+     <br>
+     <input type="submit" value="登録">
+
+     <p><a href="login.html">ログイン画面へ</p>
+   </div>
+
+ </body>
+</html>
