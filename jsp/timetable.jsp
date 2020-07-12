@@ -67,7 +67,6 @@
 
             <tr>
                 <%
-                int i;
                 for( i = 0; i < 6; i++ ){
                 %>
                 <td><%= subject[i][1] %></td>
@@ -78,7 +77,6 @@
 
             <tr>
                 <%
-                int i;
                 for( i = 0; i < 6; i++ ){
                 %>
                 <td><%= subject[i][2] %></td>
@@ -89,7 +87,6 @@
 
             <tr>
                 <%
-                int i;
                 for( i = 0; i < 6; i++ ){
                 %>
                 <td><%= subject[i][3] %></td>
@@ -100,7 +97,6 @@
 
             <tr>
                 <%
-                int i;
                 for( i = 0; i < 6; i++ ){
                 %>
                 <td><%= subject[i][4] %></td>
@@ -111,7 +107,6 @@
 
             <tr>
             <%
-                int i;
                 for( i = 0; i < 6; i++ ){
                 %>
                 <td><%= subject[i][5] %></td>
@@ -122,7 +117,6 @@
 
             <tr>
                 <%
-                int i;
                 for( i = 0; i < 6; i++ ){
                 %>
                 <td><%= subject[i][6] %></td>
